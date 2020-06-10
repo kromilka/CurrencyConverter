@@ -1,0 +1,171 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.constraint.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#AEC4E5FF"
+    tools:context=".MainActivity">
+
+    <LinearLayout
+        android:layout_width="328dp"
+        android:layout_height="624dp"
+        android:layout_marginStart="128dp"
+        android:layout_marginTop="32dp"
+        android:layout_marginEnd="128dp"
+        android:layout_marginBottom="32dp"
+        android:orientation="vertical"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent">
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <EditText
+            android:id="@+id/inputText"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autofillHints=""
+            android:ems="10"
+            android:hint="@string/hint"
+            android:inputType="numberDecimal"
+            android:text="@string/hint"
+            android:textAlignment="center"
+            android:textSize="56sp" />
+
+        <TextView
+            android:id="@+id/textView"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/rouble"
+            android:textAlignment="viewStart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="64dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/rub1"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="77dp"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:text="@string/rouble"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/jpy1"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="100dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:text="@string/jena"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/usd1"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:text="@string/dollar"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/eur1"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:text="@string/euro" />
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <TextView
+            android:id="@+id/winx"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/zero"
+            android:textAlignment="center"
+            android:textSize="56sp" />
+
+        <View
+            android:id="@+id/divider2"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="?android:attr/listDivider" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/dollar"
+            android:textAlignment="viewStart" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="56dp"
+            android:gravity="center"
+            android:orientation="horizontal">
+
+            <Button
+                android:id="@+id/eur2"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="78dp"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:text="@string/euro" />
+
+            <Button
+                android:id="@+id/usd2"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:text="@string/dollar"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/jpy2"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="69dp"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:background="#03A9F4"
+                android:text="@string/jena"
+                android:textAlignment="center" />
+
+            <Button
+                android:id="@+id/rub2"
+                style='style="?android:attr/buttonBarButtonStyle"'
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="#03A9F4"
+                android:text="@string/rouble"
+                android:textAlignment="center" />
+
+        </LinearLayout>
+
+        <Space
+            android:layout_width="match_parent"
+            android:layout_height="54dp" />
+
+        <Button
+            android:id="@+id/Update"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:background="#03A9F4"
+            android:text="@string/upd" />
+
+    </LinearLayout>
+
+</android.support.constraint.ConstraintLayout>

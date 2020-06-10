@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">CurrencyConverter</string>
+    <string name="dollar">Доллар</string>
+    <string name="euro">Евро</string>
+    <string name="rouble">Рубль</string>
+    <string name="jena">Йена</string>
+    <string name="zero">0</string>
+    <string name="hint">0</string>
+    <string name="upd">Update</string>
+</resources>
